@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact-Design</title>
+    <!-- start swiper -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <!-- end swiper -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- start page -->
+    <div class="page">
+
+        <!-- start nav var -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Impact</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#abo">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ser">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#por">Portfilo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tea">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blo">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#fot">Footer</a></li>
+                                <li><a class="dropdown-item text-dark" href="#faq">Faq</a></li>
+                                <li><a class="dropdown-item text-dark" href="#pri">Pricing</a></li>
+                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#con">Contact</a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav bar -->
+        <!-- start landing -->
+        <div class="landing">
+            <div class="row align-items-center  ">
+                <div class="col-md-12 col-lg-6">
+                    <h2 class="text-white">Welcome to Impact
+                    </h2>
+                    <p class="text-white">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.
+
+                    </p>
+                    <a href="#">Get Startred</a>
+                    <a href="#"> <i class="fa-solid fa-video" style="color:white;margin-right: 5px;"></i>Watch Video</a>
+
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="image text-center mt-5">
+                        <img src="Photo/hero-img.svg" class="w-100" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end landing -->
+        <!-- start four box -->
+        <div class="four-box mt-5">
+            <div class="row m-2">
+                <div class="col-md-3 col-lg-6">
+                    <div class="box">
+                        <i class="fa-solid fa-tv"></i>
+                        <h2>Design Project</h2>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-lg-6">
+                    <div class="box">
+                        <i class="fa-solid fa-font-awesome"></i>
+                        <h2>Test Responsive</h2>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-lg-6">
+                    <div class="box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h2> Impact test</h2>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-lg-6">
+                    <div class="box">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <h2>Nemo enum</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end four box -->
+        <!-- start about -->
+        <div class="about mt-5" id="abo">
+            <h2 class="text-center">About</h2>
+            <p class="text-center">Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop
+
+            </p>
+            <div class="content-about">
+                <div class="row m-2  align-items-center ">
+                    <div class="col-md-6 col-lg-6">
+                        <h1>Voluptatem dignissimos provident quasi corporis
+                        </h1>
+                        <div class="image">
+                            <img src="Photo/about-2.jpg" class="w-100 rounded">
+                            <p>
+                                <i class="fa-solid fa-circle fa-flip-horizontal" style="color: #000000;margin-right: 5px;"></i>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur
+                                voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.
+
+                            </p>
+                            <p> <i class="fa-solid fa-circle fa-flip-horizontal" style="color: #000000;margin-right: 5px;"></i>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus
+                                et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <p style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                        </p>
+                        <h4><i class="fa-solid fa-check" style="margin-right: 5px;background-color:#008374 ;color: white;border-radius: 50%;padding: 5px;"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </h4>
+                        <h4><i class="fa-solid fa-check" style="margin-right: 5px;background-color:#008374 ;color: white;border-radius: 50%;padding: 5px;"></i>Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </h4>
+                        <h4><i class="fa-solid fa-check" style="margin-right: 5px;background-color:#008374 ;color: white;border-radius: 50%;padding: 5px;"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                            in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        </h4>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+
+                        </p>
+                        <div class="image">
+                            <img src="Photo/about-2.jpg" class="w-100 rounded" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about -->
+        <!-- start group photo -->
+        <div class="group-Photo">
+            <div class="row m-2" style="background-color: grey; padding: 5px;margin-top: 5px;border-radius: 5px;">
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-1.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-2.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-3.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-4.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-5.png" class="w-100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="image">
+                        <img src="Photo/client-6.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end group photo -->
+        <!-- start info project -->
+        <div class="info-project mt-5">
+            <div class="row m-1 align-items-center  ">
+                <div class="col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="Photo/stats-img.svg" class="w-100 rounded" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="d-lg-flex  align-items-center mb-5 border-bottom border-black-50 mt-3 ">
+                        <h2 style="color: #008374;">232</h2>
+                        <h4><span>Happy Cilent</span>consequuntur quae diredo para mesta</h4>
+
+                    </div>
+                    <div class="d-lg-flex align-items-center mb-5 border-bottom border-black-50">
+                        <h2 style="color: #008374;">521</h2>
+                        <h4><span>Project</span>adipisci atque cum quia aut</h4>
+
+                    </div>
+                    <div class="d-lg-flex align-items-center mb-5 border-bottom border-black-50">
+                        <h2 style="color: #008374;">453</h2>
+                        <h4><span>Hours Of Supports</span>aut commodi quaerat</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="call-action mt-5">
+            <div class="info">
+                <div></div>
+            </div>
+        </div>
+        <!-- end info project -->
+        <!-- start services -->
+        <div class="services mt-5" style="background-color: #F6F6F6;" id="ser">
+            <div class="row m-1 p-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-solid fa-blog"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Nescinut Mete</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded mt-2 mb-4" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-brands fa-wordpress"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Eosle Commaid</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded mt-2 mb-4" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-solid fa-tv"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Ledo Market</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded mt-2 mb-4" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-brands fa-joomla"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Asperioes commodit</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded mt-2 mb-4" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-brands fa-stumbleupon"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Velit Doloemoeque</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="box p-3 rounded mt-2 mb-4" style="background-color: #ddd;">
+                        <div class="icon">
+                            <i class="fa-regular fa-message"></i>
+
+                        </div>
+                        <div class="info">
+                            <h2 class="text-dark">Dolori Message</h2>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus minima expedita sint eaque dicta vero id inventore saepe voluptatem ex possimus, veniam, hic quasi culpa alias quis deleniti. Nobis, cumque.</p>
+                        </div>
+                        <div class="end">
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right-to-bracket" style="margin-left: 5px;color: #008374;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end services -->
+        <!-- start TESTIMONIALS -->
+        <!-- start swiper -->
+        <swiper-container class="mySwiper " pagination="true" pagination-clickable="true" slides-per-view="2" space-between="30" centered-slides="true">
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center text-center">
+                        <div class="image">
+                            <img src="testimonials/testimonials-1.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Jogn Lerson</h2>
+                                <span>Designer</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center">
+                        <div class="image text-md-center">
+                            <img src="testimonials/testimonials-2.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Jasmine Miemos</h2>
+                                <span>Ceo-Foinder</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center">
+                        <div class="image">
+                            <img src="testimonials/testimonials-3.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Miamic Xavi</h2>
+                                <span>Admin</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center">
+                        <div class="image">
+                            <img src="testimonials/testimonials-4.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Amado Jold Ba</h2>
+                                <span>Owner</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center">
+                        <div class="image">
+                            <img src="team/team-1.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Amado Jold Ba</h2>
+                                <span>Owner</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="box p-4" style="background-color: #ccc;">
+                    <div class="info d-flex flex-wrap align-items-center">
+                        <div class="image">
+                            <img src="testimonials/testimonials-5.jpg" class="rounded-circle" style="width: 100px;height: 100px;" alt="">
+                        </div>
+                        <div class="about ms-2">
+                            <h4>Frank Itoja</h2>
+                                <span>Test-Responsive</span>
+                                <div class="icon">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="after-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam amet provident ut deleniti eius blanditiis alias, quisquam, nobis iusto et quod repellat, odio accusamus maiores magni. Saepe veniam officia reiciendis est ipsum unde
+                            odio sunt repudiandae, dolorem obcaecati nostrum dolorum.</p>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+        <!-- end swiper -->
+        <!-- end TESTIMONIALS -->
+        <!-- statrt portfilo -->
+        <div class="portfilo" id="por" style="margin-top: 40px;" id="por">
+            <div class="continer text-center">
+                <h4 class="text-dark">Portfilo</h4>
+                <h2>Check our latest work
+
+
+
+                </h2>
+            </div>
+            <div class="content">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">App</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Card</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Web</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <!-- start all -->
+                        <div class="row m-1">
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                                <!-- <img src="img/portfolio/portfolio-1.jpg" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt=""> -->
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/product-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Product 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/branding-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Branding 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/books-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Book 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/product-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Product 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/branding-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Branding 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Book 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-3.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- end all -->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <!-- start app -->
+                        <div class="row m-1">
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="Photo/app-3.jpg" class="img-fluid w-100" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">App 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/premium-photo/man-photographer-with-camera-takes-photo-dark-copy-space_169016-17159.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);"
+                                        alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/premium-psd/view-professional-expensive-photography-camera_23-2150199603.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/close-up-professional-digital-camera-tripod_169016-10266.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/optical-lens-technology-background-purple-blue-gradient_53876-124678.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);"
+                                        alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 4</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/premium-photo/camera-with-wooden-backgroundcamera-with-wooden-backgroundcamera-wooden-background_912214-17547.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);"
+                                        alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 5</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/premium-psd/photography-elements-with-poster-mockup-front-view_1332-25950.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Brandin 6</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end app -->
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <!-- start card -->
+                        <div class="row m-1">
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/doomsday-scene-catastrophe-digital-illustration_456031-51.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/city-tornado-doomsday-scene-illustration_456031-22.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/moment-city-was-hit-by-nuclear-bomb-digital-painting_456031-158.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/world-collapse-doomsday-scene-digital-painting_456031-63.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 4</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/people-swallowed-by-tornadoes-illustration_456031-24.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 5</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/cruel-war-scenes-digital-painting_456031-162.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Action 6</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/premium-photo/ruined-building-with-large-staircase-fog-with-moonlight-through-old-windows-3d-illustration_76964-4682.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);"
+                                        alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Whalleper 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/black-background-with-green-clouds_23-2148292486.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Whalleper 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-2">
+                                <div class="card bg-secondary-subtle" style="width: 100%;">
+                                    <img src="https://img.freepik.com/free-photo/dark-room-with-light-background_1409-1809.jpg?size=626&ext=jpg&ga=GA1.1.159109612.1694961865&semt=sph" class="img-fluid w-100" style="border-radius: 10px; filter: grayscale(0.1);" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Whalleper 2</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- end card -->
+                    </div>
+                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+                </div>
+            </div>
+        </div>
+        <!-- end portfilo -->
+        <!-- start team -->
+        <div class="team mt-4" id="tea">
+            <div class="continer text-center">
+                <h4>Team</h4>
+                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum
+
+                </p>
+            </div>
+            <div class="content">
+                <div class="row m-2">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box p-2 mb-2" style="background-color: #ccc;border-radius: 10px;">
+                            <div class="image" style="border:  solid 2px white;">
+                                <img src="Photo/team-1 (1).jpg" class="w-100 rounded" alt="">
+                            </div>
+                            <div class="info text-center mt-2">
+                                <h5 class="text-dark">Walter White
+                                </h5>
+                                <span class="text-dark-50" style="font-style: italic;">Web Development
+              </span>
+                            </div>
+                            <div class="icon text-center mt-3">
+                                <i class="fa-brands fa-facebook" style="color:black;;margin-left: 10px;font-size: 20px; background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-instagram" style="color: black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-linkedin" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-github" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box p-2 mb-2" style="background-color: #ccc;border-radius: 10px;">
+                            <div class="image" style="border:  solid 2px white;">
+                                <img src="Photo/team-2 (1).jpg" class="w-100 rounded" alt="">
+                            </div>
+                            <div class="info text-center mt-2">
+                                <h5 class="text-dark">Sarah Jonsoan
+                                </h5>
+                                <span class="text-dark-50" style="font-style: italic;">Marketing
+              </span>
+                            </div>
+                            <div class="icon text-center mt-3">
+                                <i class="fa-brands fa-facebook" style="color:black;;margin-left: 10px;font-size: 20px; background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-instagram" style="color: black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-linkedin" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-github" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box p-2 mb-2" style="background-color: #ccc;border-radius: 10px;">
+                            <div class="image" style="border:  solid 2px white;">
+                                <img src="Photo/team-3 (2).jpg" class="w-100 rounded" alt="">
+                            </div>
+                            <div class="info text-center mt-2">
+                                <h5 class="text-dark">William Anderson
+
+                                </h5>
+                                <span class="text-dark-50" style="font-style: italic;">Mobile-Aplction
+              </span>
+                            </div>
+                            <div class="icon text-center mt-3">
+                                <i class="fa-brands fa-facebook" style="color:black;;margin-left: 10px;font-size: 20px; background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-instagram" style="color: black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-linkedin" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-github" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="box p-2 mb-2" style="background-color: #ccc;border-radius: 10px;">
+                            <div class="image" style="border:  solid 2px white;">
+                                <img src="Photo/team-4 (1).jpg" class="w-100 rounded" alt="">
+                            </div>
+                            <div class="info text-center mt-2">
+                                <h5 class="text-dark">Amanda Jepson
+
+
+                                </h5>
+                                <span class="text-dark-50" style="font-style: italic;">Cyper-Security
+              </span>
+                            </div>
+                            <div class="icon text-center mt-3">
+                                <i class="fa-brands fa-facebook" style="color:black;;margin-left: 10px;font-size: 20px; background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-instagram" style="color: black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-linkedin" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+                                <i class="fa-brands fa-github" style="color:black;margin-left: 10px;font-size: 20px;background-color: transparent;padding: 5px;border-radius: 50%;border:  solid 1px black;"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end team -->
+        <!-- start pricing -->
+        <div class="pricing" id="pri">
+            <div class="continer text-center">
+                <h4>Pricing</h4>
+                <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id nobis omnis tiledo stran delop
+
+                </p>
+            </div>
+            <div class="content ">
+                <div class="row gap-0">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box bg-white mt-2  p-5">
+                            <div class="header text-center">
+                                <h2 class="text-dark">Free Plan</h2>
+                                <i class="fa-solid fa-boxes-stacked" style="color: white;background-color: #008374;padding: 20px;border-radius: 50%;border:  solid 2px white;outline: solid 2px #008374;"></i>
+                                <h2> <span style="color: orangered;">0</span> <sup style="color: orangered;">$</sup>/Month</h2>
+                            </div>
+                            <div class="content">
+                                <ul style="list-style-type: none;">
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Quam adipiscing vitae proin
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nec feugiat nisl pretium
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-x" style="color: grey;margin-right: 5px;"> </i> <del>Pharetra massa massa ultricies
+                </del></li>
+                                    <li> <i class="fa-solid fa-x" style="color: grey;margin-right: 5px;"> </i> <del>Massa ultricies mi quis hendrerit
+                </del></li>
+
+                                </ul>
+                                <div class="end text-center">
+                                    <button class="rounded-pill" style="color: #008374;padding: 10px;display: block;margin: 0px auto;background-color: transparent;border:solid 1px grey;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box bg-white mt-2  p-5" style="border:  solid 3px #008374;">
+                            <div class="header text-center">
+                                <h2 class="text-dark">Bussines Plan</h2>
+                                <i class="fa-solid fa-plane" style="color: white;background-color: #008374;padding: 20px;border-radius: 50%;border:  solid 2px white;outline: solid 2px #008374;"></i>
+                                <h2> <span style="color: orangered;">29</span> <sup style="color: orangered;">$</sup>/Month</h2>
+                            </div>
+                            <div class="content">
+                                <ul style="list-style-type: none;">
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Quam adipiscing vitae proin
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nec feugiat nisl pretium
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+
+                                </ul>
+                                <div class="end text-center">
+                                    <button class="rounded-pill" style="color: #008374;padding: 10px;display: block;margin: 0px auto;background-color: transparent;border:solid 1px grey;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box bg-white mt-2 p-5">
+                            <div class="header text-center">
+                                <h2 class="text-dark">Developer Plan</h2>
+                                <i class="fa-solid fa-paper-plane" style="color: white;background-color: #008374;padding: 20px;border-radius: 50%;border:  solid 2px white;outline: solid 2px #008374;"></i>
+                                <h2> <span style="color: orangered;">49</span> <sup style="color: orangered;">$</sup>/Month</h2>
+                            </div>
+                            <div class="content">
+                                <ul style="list-style-type: none;">
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Quam adipiscing vitae proin
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nec feugiat nisl pretium
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+                                    <li> <i class="fa-solid fa-check" style="color: #008374;margin-right: 5px;"></i>Nulla at volutpat diam uteera
+                                    </li>
+
+                                </ul>
+                                <div class="end text-center">
+                                    <button class="rounded-pill" style="color: #008374;padding: 10px;display: block;margin: 0px auto;background-color: transparent;border:solid 1px grey;">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end pricing -->
+        <!-- start faq -->
+        <div class="faq" style="margin-top: 30px;" id="faq">
+            <div class="continer text-center">
+                <h4 class="text-dark">F.A.Q</h4>
+                <h2>Freqently Asked Question
+
+                </h2>
+            </div>
+            <div class="content" style="margin-top: 10px;">
+                <div class="row m-2">
+
+                    <div class="col-md-6 col-lg-6">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, explicabo?
+                        </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <strong>This is the one item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                    though the transition does limit overflow.
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, modi!
+                        </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <strong>This is the two item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                    though the transition does limit overflow.
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, mollitia.
+                        </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                    though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-lg-6 mt-1">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum?
+                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the four item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                        as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, eveniet.
+                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the five item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                        as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, officiis.
+                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the six item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+                                        as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- end faq -->
+        <!-- start plog -->
+        <div class="plog mt-5" id="blo">
+            <div class="continer text-center">
+                <h4>Recent Blog Posts
+                </h4>
+                <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio
+
+                </p>
+
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width:100%;">
+                            <img src="Photo/blog-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  text-secondary ">Poltics</h5>
+                                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="info d-flex align-items-center">
+                                    <div class="image">
+                                        <img src="Photo/blog-author.jpg" style="width: 80px;height: 80px;border-radius: 50%;margin-right: 20px;" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h5>Marie Doe</h5>
+                                        <span>Jan 1, 2022
+
+                </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width:100%;">
+                            <img src="Photo/blog-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  text-secondary ">Sports</h5>
+                                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="info d-flex align-items-center">
+                                    <div class="image">
+                                        <img src="Photo/blog-author-2.jpg" style="width: 80px;height: 80px;border-radius: 50%;margin-right: 20px;" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h5>Aliisa Mayer</h5>
+                                        <span>Jan 1, 2022
+
+                </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card mb-2" style="width:100%;">
+                            <img src="Photo/blog-2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title  text-secondary ">Owner</h5>
+                                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="info d-flex align-items-center">
+                                    <div class="image">
+                                        <img src="Photo/blog-author-3.jpg" style="width: 80px;height: 80px;border-radius: 50%;margin-right: 20px;" alt="">
+                                    </div>
+                                    <div class="title">
+                                        <h5>Mark-Dower</h5>
+                                        <span>Agu 3, 2022
+
+                </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end plog -->
+        <!-- start contact -->
+        <div class="contact" style="border-radius: 20px;" id="con">
+            <div class="continer text-center">
+                <h4>Contact</h4>
+                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum
+
+                </p>
+                <div class="content text-start">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="box" style="background-color:#007F71;padding:20px;">
+                                <div class="content d-flex align-items-center  text-start p-3  " style="border-radius: 10px;background-color:#009282;">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-location-dot" style="background-color: #008374;color: white;padding: 10px;border-radius: 50%;font-size: 30px;margin-right: 10px;"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="text-white">Loction:</h5>
+                                        <h5 class="text-white">A108 Adam Street, New York, NY 535022
+
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="content d-flex align-items-center  text-start mt-3 p-3 " style="border-radius: 10px;background-color: #009282;">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-envelope" style="background-color: #008374;color: white;padding: 10px;border-radius: 50%;font-size: 30px;margin-right: 10px;"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="text-white">Email:</h5>
+                                        <h5 class="text-white">Info@gamil.com
+
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="content d-flex align-items-center  text-start mt-3 p-3 " style="border-radius: 10px;background-color: #009282;">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-mobile" style="background-color: #008374;color: white;padding: 10px;border-radius: 50%;font-size: 30px;margin-right: 10px;"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="text-white">Call:</h5>
+                                        <h5 class="text-white">+2233990010
+
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="content d-flex align-items-center  text-start mt-3 p-3 " style="border-radius: 10px;margin-top: 10px;background-color:#009282;">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-clock" style="background-color: #008374;color: white;padding: 10px;border-radius: 50%;font-size: 30px;margin-right: 10px;"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="text-white">open Hours:</h5>
+                                        <h5 class="text-white">Mon-Sat: 11AM - 23PM
+
+
+
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <form action="/action_page.php">
+                                <div class="mb-3 mt-3">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="pwd" class="form-label">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                                </div>
+                                <div>
+                                    <textarea style="width: 100%;height: 200px;resize: none;"></textarea>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact -->
+        <!-- start footer -->
+        <div class="footer p-4 gap-0" style="background-color: #007F71;" id="fot">
+            <div class="contier gap-0">
+                <div class="row grid gap-0 gap-0">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box gap-0">
+                            <h3 class="text-light fw-bold">Head-Line</h3>
+                            <p class="text-light">Sample text. Click to select the text box. Click</p>
+                            <p class="text-light">again or double click to start editing the text.</p>
+                            <i class="fa-brands fa-facebook" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-facebook-messenger" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-instagram" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box gap-0">
+                            <h3 class="text-light fw-bold">Head-Services</h3>
+                            <p class="text-light">Sample text. Click to select the text box. Click</p>
+                            <p class="text-light">again or double click to start editing the text.</p>
+                            <i class="fa-brands fa-snapchat" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-pinterest" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-viber" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box gap-0">
+                            <h3 class="text-light fw-bold">Head-Ranko</h3>
+                            <p class="text-light">Sample text. Click to select the text box. Click</p>
+                            <p class="text-light">again or double click to start editing the text.</p>
+                            <i class="fa-brands fa-linkedin" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-github" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                            <i class="fa-brands fa-soundcloud" style="color: #ffffff;padding: 10px;font-size: 25px;"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- start end project -->
+    <div class="end p-3" style="background-color: #222;">
+        <div class="continer   align-items-center   text-center">
+            <p class="fw-bold  text-light ">Website Templates created with Website Builder Software.</p>
+            <p style="font-style: italic; color: white;font-weight: bold;">By <i class="fa-brands fa-r-project" style="color: #ffffff;margin-left: 10px;"></i></p>
+        </div>
+    </div>
+    <!-- end end project -->
+    <!-- end  page -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
